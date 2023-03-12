@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+    <title>Planner App</title>
+</head>
+<body>
+    <div id="planCreationWindow" style="display: none;">
+        <label for="planCreationWindowName">Name: </label><input type="text" id="planCreationWindowName"><br><br>
+        <button id="planCreationWindowCreate">Create</button>
+        <button id="planCreationWindowCancel">Cancel</button>
+    </div>
+    <main>
+    </main>
+    <div id="sidebar">
+        <div id="sidebarBTNS">
+            <button id="new" style="background-image: url(./img/new.png);">New plan</button>
+            <button id="load" style="background-image: url(./img/load.png);">Load plan</button>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+<script defer src="./js/sidebar.js"></script>
+</html>

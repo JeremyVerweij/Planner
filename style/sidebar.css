@@ -1,0 +1,43 @@
+#sidebar{
+    background-color: rgb(55, 55, 69);
+    user-select: none;
+}
+
+#sidebarBTNS{
+    z-index: 10;
+    background-color: inherit;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    height: 100%;
+    transition: width 0.3s;
+}
+
+#sidebarBTNS:hover{
+    width: 200px;
+}
+
+
+#sidebarBTNS button{
+    margin-left: -205px;
+    transition: margin-left 0.3s;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.107);
+    border: 0px;
+    cursor: pointer;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+#sidebarBTNS:hover button{
+    margin-left: 0px;
+}
+
+#sidebarBTNS button:hover{
+    background-color: rgba(0, 0, 0, 0.189);
+}
